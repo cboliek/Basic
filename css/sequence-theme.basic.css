@@ -104,17 +104,37 @@ html,
 
 .seq .seq-pagination > *:nth-child(1):focus,
 .seq .seq-pagination > *:nth-child(1):hover {
-  background-color: #279FE5;
+  background-color:  #b30000;
 }
 
 .seq .seq-pagination > *:nth-child(2):focus,
 .seq .seq-pagination > *:nth-child(2):hover {
-  background-color: #F96852;
+  background-color: #008000;
 }
 
 .seq .seq-pagination > *:nth-child(3):focus,
 .seq .seq-pagination > *:nth-child(3):hover {
-  background-color: #2BBF8E;
+  background-color: #dac20b;
+}
+
+.seq .seq-pagination > *:nth-child(4):focus,
+.seq .seq-pagination > *:nth-child(4):hover {
+  background-color: #2e2eb8;
+}
+
+.seq .seq-pagination > *:nth-child(5):focus,
+.seq .seq-pagination > *:nth-child(5):hover {
+  background-color:  #b30000;
+}
+
+.seq .seq-pagination > *:nth-child(6):focus,
+.seq .seq-pagination > *:nth-child(6):hover {
+  background-color: #008000;
+}
+
+.seq .seq-pagination > *:nth-child(7):focus,
+.seq .seq-pagination > *:nth-child(7):hover {
+  background-color: #dac20b;
 }
 
 .seq .seq-canvas {
@@ -243,6 +263,7 @@ html,
   color: #2BBF8E;
 }
 
+
 .seq .seq-step7 {
   background-color: #575B63;
 }
@@ -279,6 +300,12 @@ html,
 
 .seq-subtitle {
   font-family: 'Lustria', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  .seq-subtitle {
+    font-size: 0.9em;
+  }
 }
 
 .seq.seq-active {

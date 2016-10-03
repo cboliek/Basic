@@ -11,6 +11,14 @@
  * @copyright Ian Lunn Design Limited 2015
  */
 
+ // $(document).ready(function() {
+ //            $('.tooltip').tooltipster();
+ //        });
+ //        $('.tooltip').tooltipster({
+ //            theme: 'tooltipster-noir'
+ //        });
+
+
 function defineSequence(imagesLoaded, Hammer) {
 
   'use strict';
