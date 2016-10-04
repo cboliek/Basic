@@ -30,9 +30,14 @@
 	box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
 }
 
-/*.frame {
-  width: 100%;
-}*/
+@media only screen and (min-width: 700px) {
+  .frame {
+    width: 750px;
+    height: 300px;
+    position: relative;
+  }
+
+}
 
 body,
 html,
