@@ -7,10 +7,10 @@
   <title>Basic - Sequence.js Theme</title>
   <link href="css/sequence-theme.basic.css" rel="stylesheet" media="all">
 
-  <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/tooltipster.bundle.min.css" />
 
-   <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
-   <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+   <!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+   <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script> -->
 
   <style>
     body {
@@ -37,8 +37,8 @@
 
         <li class="seq-step2" id="step2">
           <div class="seq-content">
-            <img src="images/meeting.png" alt="meeting" class="meeting">
-            <h2 data-seq class="seq-title">The meeting</h2>
+            <img src="images/meeting.png" alt="meeting" class="meeting tooltip" title="Death normally won against his opponents, but when the brothers cheated him by crossing a gaping cliff with a bridge made by their wands, Death had to give them their wishes.">
+            <h2 data-seq class="seq-title">The Meeting</h2>
             <h3 data-seq class="seq-subtitle">Three brothers encountered Death, who told them that he would reward them with whatever they wanted if they could defeat him.</h3>
             <!-- <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
           </div>
@@ -46,7 +46,7 @@
 
         <li class="seq-step3" id="step3">
           <div class="seq-content">
-            <img src="images/first.png" alt="First" class="first">
+            <img src="images/first.png" alt="First" class="first tooltip" title="The Elder Wand, made by Death, became the first of the deathly hallows. This could overpower any wizard who tried to harm him, evading Death.">
             <h2 data-seq class="seq-title">The First Brother</h2>
             <h3 data-seq class="seq-subtitle">The first brother asked for a wand that could overpower any other wand, making him the most powerful wizard in the world. However, he became greedy and was killed by a man he taunted.</h3>
             <!-- <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
@@ -55,7 +55,7 @@
 
         <li class="seq-step4" id="step4">
           <div class="seq-content">
-            <img src="images/second.png" alt="Second" class="second">
+            <img src="images/second.png" alt="Second" class="second tooltip" title="The Resurrection Stone, made by Death, became the second of the deathly hallows. This could bring loved ones back from the dead, evading Death.">
             <h2 data-seq class="seq-title">The Second Brother</h2>
             <h3 data-seq class="seq-subtitle">The second brother asked for a stone that could return his girlfriend from the dead. But when she returned, she was miserable and he killed himself out of grief.</h3>
             <!-- <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
@@ -64,7 +64,7 @@
 
         <li class="seq-step5" id="step5">
           <div class="seq-content">
-            <img src="images/third.png" alt="third" class="third">
+            <img src="images/third.png" alt="third" class="third tooltip" title="The Cloak of Invisibility, made by Death, became the last of the three deathly hallows. This is hide its owner from Death without upsetting the natural order of the world.">
             <h2 data-seq class="seq-title">The Third Brother</h2>
             <h3 data-seq class="seq-subtitle">The third brother, a humble man, asked for a cloak to hide him from death. He avoided death for many years under the cloak, then gave it to his son to meet Death as a friend.</h3>
             <!-- <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
@@ -73,7 +73,7 @@
 
         <li class="seq-step6" id="step6">
           <div class="seq-content">
-            <img src="images/together.png" alt="together" class="together">
+            <img src="images/together.png" alt="together" class="together tooltip" title="This symbol told wizards that no one man should have all three deathly hallows, because that person would never be able to be killed.">
             <h2 data-seq class="seq-title">Together</h2>
             <h3 data-seq class="seq-subtitle">So, the three gifts that were given to the brothers: the elder wand, the resurrection stone, and the cloak of invisibility make up the Deathly Hallows. With all of these things, one becomes the master of death.</h3>
             <!-- <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
@@ -83,7 +83,8 @@
         <li class="seq-step7" id="step7">
           <div class="seq-content">
             <h2 data-seq class="seq-title">Let's Take A Quiz</h2>
-            <iframe src="file:///Users/cboliek/Desktop/newsquiz/index.html"></iframe>
+            <iframe src="file:///Users/cboliek/Desktop/newsquiz/index.html" class="frame"></iframe>
+
             <!-- <h3 data-seq class="seq-subtitle">All of the JavaScript functionality you need built-in, so you can concentrate on substance and style</h3>
             <a class="seq-button" href="http://sequencejs.com/" target="_blank" tabindex="-1">Find Out More →</a> -->
           </div>
@@ -104,10 +105,12 @@
 
     </ul>
   </div>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts/scripts.js"></script>
   <script src="scripts/imagesloaded.pkgd.min.js"></script>
   <script src="scripts/hammer.min.js"></script>
   <script src="scripts/sequence.min.js"></script>
   <script src="scripts/sequence-theme.basic.js"></script>
+  <script src="scripts/tooltipster.bundle.min.js"></script>
 </body>
 </html>

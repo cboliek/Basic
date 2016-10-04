@@ -23,6 +23,16 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
 @import 'https://fonts.googleapis.com/css?family=Courgette|David+Libre|Lustria';
 
+.tooltipster-sidetip.tooltipster-light.tooltipster-light-customized .tooltipster-box {
+	background: grey;
+	border: 3px solid black;
+	border-radius: 6px;
+	box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+}
+
+/*.frame {
+  width: 100%;
+}*/
 
 body,
 html,
@@ -80,6 +90,12 @@ html,
 
 .seq .seq-pagination .seq-current {
   border-radius: 100%;
+  /*width: 28px;
+  height: 28px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid black;*/
 }
 
 .seq .seq-pagination > * {
@@ -91,7 +107,7 @@ html,
   height: 28px;
   cursor: pointer;
   background: none;
-  border: white solid 2px;
+  border: black solid 1px;
   -webkit-transition-duration: .1s;
   transition-duration: .1s;
   -webkit-transition-property: background-color, border-radius;
@@ -104,37 +120,37 @@ html,
 
 .seq .seq-pagination > *:nth-child(1):focus,
 .seq .seq-pagination > *:nth-child(1):hover {
-  background-color:  #b30000;
+  background-color:  #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(2):focus,
 .seq .seq-pagination > *:nth-child(2):hover {
-  background-color: #008000;
+  background-color:  #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(3):focus,
 .seq .seq-pagination > *:nth-child(3):hover {
-  background-color: #dac20b;
+  background-color: #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(4):focus,
 .seq .seq-pagination > *:nth-child(4):hover {
-  background-color: #2e2eb8;
+  background-color: #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(5):focus,
 .seq .seq-pagination > *:nth-child(5):hover {
-  background-color:  #b30000;
+  background-color:  #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(6):focus,
 .seq .seq-pagination > *:nth-child(6):hover {
-  background-color: #008000;
+  background-color: #b7922a;
 }
 
 .seq .seq-pagination > *:nth-child(7):focus,
 .seq .seq-pagination > *:nth-child(7):hover {
-  background-color: #dac20b;
+  background-color: #b7922a;
 }
 
 .seq .seq-canvas {
@@ -265,7 +281,7 @@ html,
 
 
 .seq .seq-step7 {
-  background-color: #575B63;
+  background-color: #303030;
 }
 
 .seq .seq-step7 .seq-button:focus,
@@ -299,7 +315,7 @@ html,
 }
 
 .seq-subtitle {
-  font-family: 'Lustria', sans-serif;
+  font-family: 'Lustria', serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -507,7 +523,7 @@ html,
   height: 300px;
 }
 
-.togehter {
+.together {
   height: 300px;
 }
 

@@ -19,6 +19,7 @@
  //        });
 
 
+
 function defineSequence(imagesLoaded, Hammer) {
 
   'use strict';
@@ -204,6 +205,16 @@ function defineSequence(imagesLoaded, Hammer) {
         up: undefined,
         down: undefined
       },
+
+      function( event ) {
+        var data = event.originalEvent.touches ?
+            event.originalEvent.touches[ 0 ] : event;
+        return {
+            time: ( new Date() ).getTime(),
+            coords: [ .seq-step1, .seq-step2 ],
+            origin: $( event.target )
+          };
+      }
 
       // Options to supply the third-party Hammer library See: http://hammerjs.github.io/recognizer-swipe/
       swipeHammerOptions: {},
