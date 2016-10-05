@@ -5,6 +5,7 @@ $(document).ready(function(){
             $('.tooltip').tooltipster();
         });
         $('.tooltip').tooltipster({
-          theme: ['tooltipster-light', 'tooltipster-light-customized']
+          theme: ['tooltipster-light', 'tooltipster-light-customized'],
+          side: 'right'
       });
 });

@@ -25,9 +25,22 @@
 
 .tooltipster-sidetip.tooltipster-light.tooltipster-light-customized .tooltipster-box {
 	background: grey;
-	border: 3px solid black;
 	border-radius: 6px;
 	box-shadow: 5px 5px 2px 0 rgba(0,0,0,0.4);
+  width: 200px;
+  side: right;
+  color: white;
+}
+
+.tooltipster-sidetip.tooltipster-light.tooltipster-light-customized .tooltipster-content {
+  color: white;
+}
+
+@media only screen and (max-width: 700px) {
+  .tooltipster-box {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -220,6 +233,10 @@ html,
   transition-property: background-color, color;
 }
 
+.md {
+ display: none;
+}
+
 @media only screen and (max-width: 700px) {
   img {
     height: 200px;
@@ -231,8 +248,32 @@ html,
 }
 
 .seq .seq-step1 {
-  background-color: #575B63;
+  background-image: url(../images/map.jpg);
+
+
 }
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .hidden-xs {
+    display: none;
+  }
+
+  .md {
+    display: block;
+    margin-left: 20px;
+  }
+
+}
+
+@media only screen and (min-with: 700px) {
+
+
+
+}
+
 
 .seq .seq-step1 .seq-button:focus,
 .seq .seq-step1 .seq-button:hover {
@@ -240,7 +281,7 @@ html,
 }
 
 .seq .seq-step2 {
-  background-color: #49404f;
+  background-image: url(../images/map.jpg);
 }
 
 .seq .seq-step2 .seq-button:focus,
@@ -249,7 +290,7 @@ html,
 }
 
 .seq .seq-step3 {
-  background-color: #43509b;
+  background-image: url(../images/map.jpg);
 }
 
 .seq .seq-step3 .seq-button:focus,
@@ -258,7 +299,7 @@ html,
 }
 
 .seq .seq-step4 {
-  background-color: #841926;
+  background-image: url(../images/map.jpg);
 }
 
 .seq .seq-step4 .seq-button:focus,
@@ -267,7 +308,7 @@ html,
 }
 
 .seq .seq-step5 {
-  background-color: #4f6d2c;
+  background-image: url(../images/map.jpg);
 }
 
 .seq .seq-step5 .seq-button:focus,
@@ -276,7 +317,7 @@ html,
 }
 
 .seq .seq-step6 {
-  background-color: #637d93;
+  background-image: url(../images/map.jpg);
 }
 
 .seq .seq-step6 .seq-button:focus,
@@ -286,7 +327,8 @@ html,
 
 
 .seq .seq-step7 {
-  background-color: #303030;
+  background-image: url(../images/map.jpg);
+
 }
 
 .seq .seq-step7 .seq-button:focus,
